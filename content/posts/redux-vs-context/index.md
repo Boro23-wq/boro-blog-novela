@@ -1,7 +1,7 @@
 ---
 title: Redux/Context API for state management in React.
 author: Sintu Boro
-date: 2020-01-09
+date: 2021-01-09
 hero: ./images/cover.png
 excerpt: Is Context API better than Redux for state management? Know how they help avoid the concept of prop drilling!
 ---

@@ -1,7 +1,7 @@
 ---
 title: Stable Incremental Static Re-generation (Next.js 9.5+).
 author: Sintu Boro
-date: 2020-01-06
+date: 2021-01-06
 hero: ./images/cover.png
 excerpt: Next.js has introduced a very handy feature called Incremental Static Re-generation from versions 9.5 and above. Know what the fuss is about!
 ---

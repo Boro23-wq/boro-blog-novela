@@ -1,7 +1,7 @@
 ---
 title: Next.js (useStaticProps, useStaticPaths) + Static JSON Data.
 author: Sintu Boro
-date: 2020-01-04
+date: 2020-12-12
 hero: ./images/cover.png
 excerpt: There are multiple different ways (useStaticProps, useStaticPaths, useServerSideProps) to fetch data in Next.js. Let's build an application using the different methods.
 ---
