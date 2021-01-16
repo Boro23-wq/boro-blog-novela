@@ -8,8 +8,6 @@ import { IAuthor } from "@types";
 
 import SocialLinks from "@components/SocialLinks";
 
-import SpotifyPlayer from "./SpotifyPlayer";
-
 interface AuthorHeroProps {
   author: IAuthor;
 }
@@ -22,12 +20,6 @@ const AuthorHero: React.FC<AuthorHeroProps> = ({ author }) => {
       </HeroImage>
       <Heading>{author.name}</Heading>
       <Subheading>{author.bio}</Subheading>
-      <SpotifyPlayer
-        uri="spotify:user:boro:playlist:1y9lApZ1pj4dgqXwToxLAj?si=HFkg9YpDTF2QW_rq9387Yg"
-        size="compact"
-        theme="black"
-        view="list"
-      />
       <Social>
         <SocialLinks links={author.social} />
       </Social>

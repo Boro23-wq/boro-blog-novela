@@ -188,7 +188,7 @@ And the final thing is to add the lang attribute to the HTML tag that perdurably
 
 ### Lines removed from index.js file
 
-The following lines are removed from index.js (marked by x). 
+The following lines are removed from index.js (marked by x).
 
 ```diff
 x <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
