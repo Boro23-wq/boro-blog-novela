@@ -81,10 +81,7 @@ const Heading = styled.h1`
 `;
 
 const Subheading = styled.p`
-  margin-top: 0;
-  margin-bottom: 3rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 450px;
   color: ${p => p.theme.colors.grey};
   font-size: 18px;
