@@ -85,7 +85,7 @@ const SEO: React.FC<HelmetProps> = ({
     path ? `${site.siteUrl}${path}` : site.siteUrl;
 
   // If no image is provided lets looks for a default novela static image
-  image = image ? image : 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg';
+  image = image ? image : '/preview.jpg';
 
   const metaTags = [
     { charset: 'utf-8' },

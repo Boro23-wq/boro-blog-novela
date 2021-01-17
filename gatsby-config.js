@@ -3,6 +3,7 @@ module.exports = {
     title: `Blog | Boro`,
     name: `Boro`,
     siteUrl: `https://boro-blog.netlify.app`,
+    image: `https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg`,
     description: `Technical blog on Full-stack technologies, development, and best practices in general.`,
     hero: {
       heading: `I write about technology, development and best practices.`,
