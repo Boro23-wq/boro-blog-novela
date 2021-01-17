@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog | Boro`,
     name: `Boro`,
-    siteUrl: `https://boro-blogs.netlify.app`,
+    siteUrl: `https://boro-blog.netlify.app`,
     description: `Technical blog on Full-stack technologies, development, and best practices in general.`,
     hero: {
       heading: `I write about technology, development and best practices.`,
@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Blog by Boro`,
+        short_name: `Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
