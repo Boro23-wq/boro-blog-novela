@@ -106,7 +106,7 @@ export const globalStyles = css`
     font-family: monospace;
     color: white;
     background: #1b1d24;
-    padding: 0.1rem 0.5rem;
+    padding: 0.05rem 0.25rem 0.25rem 0.5rem;
     border: 1px solid rgba(255,255,255, 0.2);
     border-radius: 0.5rem;
   }
