@@ -28,7 +28,7 @@ import { AuthProvider } from '../lib/auth';
 
 <!-- SOME CHANGE REQUIRED -->
 
-With absolute imports it's clean and easy.
+With absolute imports, it's clean and easy.
 
 ```js
 // With absolute imports
@@ -47,7 +47,7 @@ Let us look at how we can configure to use absolute imports. A typical configura
     "compilerOptions": {
       "baseUrl": ".",
     }
-  }
+}
 ```
 
 Here, the `baseUrl` denotes the root of the project. So, if we have a directory called "lib" at the root of our project, we can make a direct import like so:
