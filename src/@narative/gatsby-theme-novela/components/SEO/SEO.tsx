@@ -85,7 +85,7 @@ const SEO: React.FC<HelmetProps> = ({
     path ? `${site.siteUrl}${path}` : site.siteUrl;
 
   // If no image is provided lets looks for a default novela static image
-  image = image ? image : '/preview.jpg';
+  image = image ? image : 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg';
 
   const metaTags = [
     { charset: 'utf-8' },
@@ -107,7 +107,8 @@ const SEO: React.FC<HelmetProps> = ({
     },
     { itemprop: 'name', content: title || site.title },
     { itemprop: 'description', content: description || site.description },
-    { itemprop: 'image', content: fullURL(image) },
+    // { itemprop: 'image', content: fullURL(image) },
+    { itemprop: 'image', content: image },
     { name: 'description', content: description || site.description },
 
     { name: 'twitter:card', content: 'summary_large_image' },
@@ -117,12 +118,14 @@ const SEO: React.FC<HelmetProps> = ({
     { name: 'twitter:creator', content: twitter.url },
     {
       name: 'twitter:image',
-      content: fullURL(image),
+      // content: fullURL(image),
+      content: image,
     },
 
     { property: 'og:title', content: title || site.title },
     { property: 'og:url', content: url },
-    { property: 'og:image', content: fullURL(image) },
+    // { property: 'og:image', content: fullURL(image) },
+    { property: 'og:image', content: image },
     { property: 'og:description', content: description || site.description },
     { property: 'og:site_name', content: site.name },
   ];
