@@ -71,7 +71,7 @@ $ npm install express body-parser node-json-db uuid speakeasy
 - Node-json-db will be used as a database instance for storage.
 - Speakeasy is a one-time passcode generator, that we require for the two-factor authentication demonstration.
 
-We now have all the necessary dependencies and are ready to create our server. In the project folder, create an `index.js` file that will act as an entry point to our project and add the following code to it:
+We now have all the necessary dependencies and are ready to create our server. In the project folder, create an `index.js` file which will be the entry point to our project and add the following code to it:
 
 ```js
 const express = require('express');
